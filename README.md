@@ -1,18 +1,45 @@
-# 🚀 My Agent Skills Catalog
+# 🚀 Mon Workspace d'Agents IA
 
-Centralisation et organisation de mes skills, serveurs MCP et outils pour agents IA.
-
----
-
-## 📚 Répertoire des Skills
-
-| Nom / Outil | Catégorie | Lien GitHub Source | Utilité & Description |
-| :--- | :--- | :--- | :--- |
-| **Security Auditor** | Sécurité | [Lien Repo](https://github.com/...) | Audit des failles OWASP et sécurité des API |
-| **Code Reviewer** | Dev | [Lien Repo](https://github.com/...) | Analyse de la qualité et du style de code |
-| **n8n Workflow** | Automatisation | [Lien Repo](https://github.com/...) | Création et dépannage de flux n8n |
+Centralisation et organisation de mes **Skills (consignes)**, **Serveurs MCP (connecteurs)** et **Configurations d'Assistants**.
 
 ---
 
-## 📌 Notes & Pense-bête
-- *Astuce : Pour ajouter un nouveau skill, ajouter une ligne dans le tableau ci-dessus avec son lien d'origine.*
+## 📂 Structure du Dépôt
+
+- `1-SKILLS/` : Dossiers de règles métiers, consignes et checklists (`SKILL.md`).
+- `2-MCP-SERVERS/` : Connecteurs d'outils et d'API (Bases de données, n8n, GitHub, etc.).
+- `3-CONFIGS-ASSISTANTS/` : Fichiers de configuration spécifiques à chaque assistant (Google Antigravity, Claude Desktop, etc.).
+
+---
+
+## 🧠 1. Répertoire des Skills (Instructions & Métier)
+
+| Nom du Skill | Catégorie | Compatibilité | Description / Usage | Source / Lien |
+| :--- | :--- | :--- | :--- | :--- |
+| **Audit Sécurité Web** | Sécurité | `Universel` | Checklist OWASP, analyse des vulnérabilités JWT/IDOR | `1-SKILLS/Security/` |
+| **Revue de Code** | Dev | `Universel` | Analyse de la qualité, lisibilité et refactoring | `1-SKILLS/Code/` |
+| **Générateur n8n** | Automation | `Universel` | Consignes pour concevoir des flux JSON n8n valides | `1-SKILLS/Automation/` |
+
+---
+
+## 🔌 2. Serveurs MCP (Connecteurs & Outils)
+
+| Nom du Serveur MCP | Service Connecté | Compatibilité | Rôle principal | Dépôt Source GitHub |
+| :--- | :--- | :--- | :--- | :--- |
+| **PostgreSQL / Supabase** | Base de données | `Antigravity` / `Claude` | Lecture du schéma, exécution de requêtes SQL | [Lien GitHub](https://github.com/...) |
+| **n8n MCP** | n8n | `Antigravity` / `Claude` | Interaction directe avec les workflows n8n | [Lien GitHub](https://github.com/...) |
+| **FileSystem MCP** | Fichiers locaux | `Antigravity` / `Claude` | Lecture/Écriture sécurisée dans des dossiers choisis | [Lien GitHub](https://github.com/...) |
+
+---
+
+## ⚙️ 3. Configurations des Assistants
+
+- 🟢 **Google Antigravity :** Configurations d'agents et chemins d'accès (`3-CONFIGS-ASSISTANTS/antigravity/`).
+- 🟠 **Claude Desktop :** Fichier `claude_desktop_config.json` (`3-CONFIGS-ASSISTANTS/claude/`).
+
+---
+
+## 📌 Guide d'Ajout Rapide
+
+1. **Un nouveau Skill ?** Créez un sous-dossier dans `1-SKILLS/` avec un fichier `SKILL.md` et ajoutez une ligne au tableau 1.
+2. **Un nouveau Serveur MCP ?** Référencez son dépôt GitHub source dans le tableau 2 et ajoutez sa configuration dans `3-CONFIGS-ASSISTANTS/`.
