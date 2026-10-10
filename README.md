@@ -32,6 +32,14 @@ Centralisation et organisation de mes **Skills (consignes)**, **Serveurs MCP (co
 | **PostgreSQL / Supabase** | Base de données | `Antigravity` / `Claude` | Lecture du schéma, exécution de requêtes SQL | [Lien GitHub](https://github.com/...) |
 | **n8n MCP** | n8n | `Antigravity` / `Claude` | Interaction directe avec les workflows n8n | [Lien GitHub](https://github.com/...) |
 | **FileSystem MCP** | Fichiers locaux | `Antigravity` / `Claude` | Lecture/Écriture sécurisée dans des dossiers choisis | [Lien GitHub](https://github.com/...) |
+## 🔌 2. Serveurs MCP (Connecteurs & Outils)
+
+| Nom du Serveur MCP | Service Connecté | Compatibilité | Rôle principal | Dépôt Source GitHub |
+| :--- | :--- | :--- | :--- | :--- |
+| **Filesystem MCP** | Fichiers locaux | `Antigravity` / `Claude` | Lecture/Écriture et édition de fichiers dans vos projets | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
+| **PostgreSQL MCP** | Base PostgreSQL | `Antigravity` / `Claude` | Inspection du schéma BDD et exécution de requêtes SQL | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
+| **GitHub MCP** | API GitHub | `Antigravity` / `Claude` | Interaction avec vos dépôts, PR, et issues à distance | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
+| **Git MCP** | Git Local | `Antigravity` / `Claude` | Analyse des diffs de code et de l'historique des commits | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) |
 
 ---
 
