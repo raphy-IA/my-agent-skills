@@ -41,6 +41,26 @@ Centralisation et organisation de mes **Skills (consignes)**, **Serveurs MCP (co
 
 - 🟢 **Google Antigravity :** Configurations d'agents et chemins d'accès (`3-CONFIGS-ASSISTANTS/antigravity/`).
 - 🟠 **Claude Desktop :** Fichier `claude_desktop_config.json` (`3-CONFIGS-ASSISTANTS/claude/`).
+- {
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/chemin/vers/vos/projets/code"
+      ]
+    },
+    "postgresql": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://utilisateur:motdepasse@localhost:5432/mabase"
+      ]
+    }
+  }
+}
 
 ---
 
