@@ -19,6 +19,9 @@ Centralisation et organisation de mes **Skills (consignes)**, **Serveurs MCP (co
 | **Audit Sécurité Web** | Sécurité | `Universel` | Checklist OWASP, analyse des vulnérabilités JWT/IDOR | `1-SKILLS/Security/` |
 | **Revue de Code** | Dev | `Universel` | Analyse de la qualité, lisibilité et refactoring | `1-SKILLS/Code/` |
 | **Générateur n8n** | Automation | `Universel` | Consignes pour concevoir des flux JSON n8n valides | `1-SKILLS/Automation/` |
+| **Semgrep (Sécurité SAST)** | Sécurité | `Universel` | Analyse statique de failles (Python, Node, etc.) | [github.com/semgrep/semgrep](https://github.com/semgrep/semgrep) |
+| **Awesome Agent Skills** | Dev / Qualité | `Universel` | Catalogue de skills de code et bonnes pratiques | [github.com/VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) |
+| **Secure Coding Checklist** | Sécurité | `Universel` | Référentiel de bonnes pratiques de code sécurisé | [github.com/trailofbits/secure-coding-checklist](https://github.com/trailofbits/secure-coding-checklist) |
 
 ---
 
